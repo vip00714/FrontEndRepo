@@ -1,0 +1,59 @@
+
+    .d-button {
+        background-color: rgb(200, 16, 16);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 100px;
+        border-radius: 3px;
+        cursor: hand;
+        transition: opacity 1s;
+    }
+
+    .d-button:hover {
+        opacity: 0.7;
+    }
+
+    .d-button:active {
+        opacity: 0.5;
+    }
+
+
+    .j-button:hover {
+        background-color: rgb(41, 118, 211);
+        color: white;
+    }
+
+    .j-button:active {
+        opacity: 0.5;
+    }
+
+
+
+    .j-button {
+        background-color: white;
+        height: 36px;
+        width: 62px;
+        border-radius: 3px;
+        border-color: rgb(41, 18, 211);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(41, 118, 211);
+        margin-left: 8px;
+        cursor: pointer;
+        transition: background-color 1s, color 1s
+    }
+
+
+    .t-button {
+        background-color: rgb(2, 58, 155);
+        height: 36px;
+        width: 74px;
+        border: none;
+        color: white;
+        margin-left: 8px;
+        font-weight: bold;
+        font-size: 15px;
+        box-shadow: 10px 10px 10px black;
+
+    }
